@@ -93,16 +93,15 @@ width:100%;
 	font-weight: bold;
 	position: relative;
 	z-index: 1;
-	background-color: #fff;
 	padding-right: 15px;
 }
 .Price{
 	float:right;
-	color: #555;
+	color: #000000;
 	font-weight: bold;
 	position: relative;
 	z-index: 1;
-	background-color: #fff;
+	background-color: #ee2345;
 	padding-left: 15px;
 }
 .Description{
