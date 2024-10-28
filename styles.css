@@ -11,25 +11,26 @@ body{
     padding: 0 10px;
     margin: 0 auto;
 }
-h1.logo{
-	background-image: url(https://res.cloudinary.com/ddui0r6ex/image/upload/v1484990209/logo_crh93j.png);
-	background-repeat: no-repeat;
-	width: 100px;
-	text-indent: -10000px;
+.logo{
+	width: 100%;
+
 	float:left;
 }
 header nav{
-	float: right;
-	/*margin-right: 10px;*/
+    float:none;
+	display: flex;
+
+  
 }
 header nav h2{
 	text-indent: -10000px;
 	height: 0;
 	margin: 0;
+	
 }
 
 header nav li{
-	float: left;
+	float:left;
 	list-style-type: none;
 	margin: 10px 20px;
 }
@@ -38,6 +39,7 @@ header nav li a{
 	text-decoration: none;
     color: #333;
     font-size: 18px;
+   
 
 }
 
@@ -47,6 +49,7 @@ header nav ul li a:hover{
 	transition: ease-in-out;
 	
 }
+
 
 
 
@@ -169,3 +172,4 @@ footer ul{
 footer li{
 	margin: 10px 0;
 }
+
